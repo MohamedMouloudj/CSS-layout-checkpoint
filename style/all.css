@@ -1,0 +1,230 @@
+body{
+    box-sizing: 0;
+    height: 2000px;
+}
+    
+    
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    margin: 0 15vw;
+    max-width: 1000px;
+}
+
+
+.m-title{
+    margin: 80px 20px;
+}
+
+.sm-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2::selection{
+    background-color:#00b39b; 
+    color:white;
+}
+
+h1::selection{
+    background-color:#00b39b; 
+    color:white;
+}
+
+.sm-title h1{
+    color: #00b39b;;
+    font-size: 2em;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article{
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.fst-part,.snd-part{
+    display: inline-block;
+    flex:1;
+    max-height: 300px;
+}
+p{
+    display: block;
+    line-height: 25px;
+    text-align-last:left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(106, 106, 106);
+    width:32vw;
+    font-size: 15px;
+}
+
+.fcontainer{
+    display: flex;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 22vw);
+    grid-template-rows: auto;
+    gap:12px
+}
+
+.container h1{
+    color:white;
+    text-align-last: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    margin: 12px;
+}
+.container h2{
+    color:white;
+    text-align-last: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75em;
+    font-weight: 200;
+    margin: 12px;
+}
+
+ .s1{
+    background-color: #00CCB1;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+ }
+ .s1 select{
+    background-color: rgb(0, 204, 177);
+    color: white;
+    width: min-content;
+    font-size: 1.1rem;
+    border-color: rgb(0, 204, 177);
+    text-decoration: underline;
+    margin-bottom: 7vh;
+ }
+
+ .slct{
+    background-color: rgb(0, 204, 177);
+    color: white;
+    width: min-content;
+    font-size: 1.1rem;
+    border-color: rgb(0, 204, 177);
+    text-decoration: underline;
+}
+
+.s2{
+    background-color: #3d83df;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+ }
+
+ .s2 select{
+    background-color: #3d83df;
+    color: white;
+    width: min-content;
+    font-size: 1.1rem;
+    border-color: #3d83df;
+    text-decoration: underline;
+    margin-bottom:7vh;
+ }
+
+ .slct1{
+   background-color: #3d83df;
+   color: white;
+  width: min-content;
+   font-size: 1.1rem;
+   border-color: #3d83df;
+   text-decoration: underline;
+ }
+
+ .s3{
+    background-color: #1B2734;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+ }
+
+ .s3 select{
+    background-color: #1B2734;
+    color: white;
+    width: min-content;
+    font-size: 1.1rem;
+    border-color:#1B2734;
+    text-decoration: underline;
+    margin-bottom: 7vh;
+ }
+
+ .slct2{
+    display: flex;
+    flex-direction: row;
+    background-color: #1B2734;
+    color: white;
+    width: min-content;
+    font-size: 1.1rem;
+    border-color: #1B2734;
+    text-decoration: underline;
+ }
+
+
+p::selection{
+    background-color:#00b39b; 
+    color:white;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+    flex-wrap:nowrap;
+}
+
+
+.brands h2{
+    color: #00b39b;;
+    font-size: 2em;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align-last:left ;
+    width: 40%;
+    display: inline-block;
+}
+
+.brands ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    flex-wrap: wrap;
+    padding:0;
+}
+
+.brands li{
+    display: inline;
+    height:min-content;
+}
+
+.brands ul{
+    display:flex;
+    justify-content: space-around;
+    align-content:center;
+}
+
+.s-ul1,.s-ul2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:auto;
+}
+

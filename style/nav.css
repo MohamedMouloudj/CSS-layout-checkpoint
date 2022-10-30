@@ -1,0 +1,57 @@
+.bodya{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    max-height: 75px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    top:0;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 3px rgb(234, 234, 234);
+    z-index:1;
+    flex-wrap:nowrap;
+    gap:20vw;
+}
+a{
+    text-decoration: none;
+    font-size:14px;
+    color:rgb(170, 170, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.t-logo{
+    flex: 1;
+    margin-top: 15px;
+    margin-left: 13vw;
+}
+
+.menu{
+    flex:1;
+    padding-top:14px;
+    display: flex;
+    column-gap:18px ;
+    justify-content: end;
+    margin-right: 200px;
+}
+
+.inf{
+    color:#00b39b ;
+    display: inline;
+}
+
+a:hover{
+    color:#00b39b;
+    transition: all 0.4s;
+}
+
+#Dp:hover{
+    cursor:pointer;
+}
+
